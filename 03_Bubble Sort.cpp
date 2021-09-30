@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// 내부연산이 자주 일어나게되어 시간복잡도는 O(N^2)로 선택정렬과
+// 동일하지만 속도는 더 느리다. 
 int main(void) {
 	int i, j, temp;
 	int array[10] = {1, 10, 5, 8, 7, 6, 4, 3, 2, 9};
